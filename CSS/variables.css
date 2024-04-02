@@ -1,0 +1,55 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --color-main: #0E1415;
+    --color-light: #FFFFFF;
+    --background: #0A1011;
+    --text-color: #8E8E8E;
+    --text-green: #10CA71;
+    --background-cart: #161C1D;
+    --aside-background: #121819;
+    --footer-background: #020809;
+    --linear: linear-gradient(90.05deg, #D34477 0%, #CF45CA 50.63%, #9245CF 100%);
+    --gap-2: 2px;
+    --gap-4: 4px;
+    --gap-8: 8px;
+    --gap-10: 10px;
+    --gap-12: 12px;
+    --gap-16: 16px;
+    --gap-20: 20px;
+    --gap-24: 24px;
+    --gap-32: 32px;
+    --gap-36: 36px;
+    --padding-0: 0px;
+    --padding-4: 4px;
+    --padding-8: 8px;
+    --padding-12: 12px;
+    --padding-13: 13px;
+    --padding-16: 16px;
+    --padding-20: 20px;
+    --padding-24: 24px;
+    --padding-30: 30px;
+    --padding-290: 290px;
+    --font-size-12: 12px;
+    --font-size-14: 14px;
+    --font-size-16: 16px;
+    --font-size-24: 24px;
+    --font-size-36: 36px;
+    --line-height-17: 17px;
+    --line-height-19: 19px;
+    --font-weight-400: 400;
+    --font-weight-500: 500;
+    --font-weight-600: 600;
+    --font-weight-700: 700;
+    --border-radius-8: 8px;
+    --border-radius-10: 10px;
+    --border-radius-12: 12px;
+    --border-radius-16: 16px;
+    --border-radius-22: 22px;
+    --border-radius-24: 24px;
+    --border-radius-28: 28px;
+}

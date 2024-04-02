@@ -1,0 +1,41 @@
+@import 'global.css';
+@import 'variables.css';
+@import 'body.css';
+.input {
+  background-color: inherit;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: space-around;
+  gap: 50px;
+}
+.input input {
+  height: 40px;
+  border-radius: 8px;
+  outline: none;
+}
+.input button {
+  cursor: pointer;
+  outline: none;
+  border-radius: 8px;
+  background-color: var(--text-green);
+}
+.input button:hover {
+  background-color: white;
+  color: black;
+}
+.footer {
+  background-color: var(--text-green);
+  height: 40px;
+}
+.footer .last_footer_div {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  color: --footer-background;
+  font-size: 20px;
+}
+.footer .last_footer_div P {
+  text-align: center;
+  align-items: center;
+}
