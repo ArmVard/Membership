@@ -22,7 +22,7 @@ class PremiumMembership {
 }
 class MemberFactory {
     static list = {
-        simple: new SimpleMembership(1000, 6, 'simple'),
+        simple: new SimpleMembership(800, 6, 'simple'),
         standard: new StandardMembership(2000, 8, 'standard'),
         premium: new PremiumMembership(6000, 5, 'premium')
     }
@@ -43,7 +43,7 @@ document.getElementById('btn').addEventListener("click", function () {
     const membershipType = document.getElementById("membershipType").value;
     const user = factory.create(username, membershipType);
     console.log(user);
-    try { 
+    try {
         const newUser = factory.create(username, membershipType);
         users.push(newUser);
         displayUsers(users);
@@ -52,9 +52,9 @@ document.getElementById('btn').addEventListener("click", function () {
     }
 });
 
-    function displayUsers(usersToDisplay) {
+function displayUsers(usersToDisplay) {
     const usersList = document.getElementById('info');
-    
+
     usersToDisplay.forEach(user => {
         usersList.innerHTML = `<p>${user.firstName} - ${user.type} Membership ( ${user.cost}:$, Duration: ${user.month} months)</p>`;
     });
