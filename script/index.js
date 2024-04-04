@@ -42,6 +42,7 @@ document.getElementById('btn').addEventListener("click", function () {
     const username = document.getElementById("name").value;
     const membershipType = document.getElementById("membershipType").value;
     const user = factory.create(username, membershipType);
+    document.getElementById('usersList').style.transform = 'translate(0)'
     console.log(user);
     try {
         const newUser = factory.create(username, membershipType);
