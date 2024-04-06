@@ -293,7 +293,7 @@
 .aside_cards {
     display: flex;
     flex-direction: row;
-    column-gap: 200px;
+    gap: 40px;
 }
 
 .aside {
